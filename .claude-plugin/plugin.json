@@ -1,0 +1,14 @@
+{
+  "name": "bora-viajar",
+  "displayName": "Bora Viajar",
+  "version": "0.1.0",
+  "description": "MCP do Bora Viajar + skills de planejamento de viagem em família: roteiro, reservas, voos, perfil de viajante e mala.",
+  "author": {
+    "name": "eclbrz",
+    "url": "https://github.com/eclbrz"
+  },
+  "homepage": "https://github.com/eclbrz/bora-viajar-plugin",
+  "repository": "https://github.com/eclbrz/bora-viajar-plugin",
+  "license": "MIT",
+  "keywords": ["viagem", "roteiro", "voos", "bagagem", "familia", "mcp"]
+}

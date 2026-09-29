@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bora-viajar": {
+      "type": "http",
+      "url": "https://viagens-mcp-286754895635.southamerica-east1.run.app/mcp"
+    }
+  }
+}

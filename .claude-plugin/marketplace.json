@@ -1,0 +1,21 @@
+{
+  "name": "bora-viajar",
+  "description": "Bora Viajar — planejamento e acompanhamento de viagens em família, direto no Claude Code",
+  "owner": {
+    "name": "eclbrz",
+    "url": "https://github.com/eclbrz"
+  },
+  "plugins": [
+    {
+      "name": "bora-viajar",
+      "source": "./",
+      "description": "MCP do Bora Viajar + skills para planejar viagens, revisar roteiros, registrar voos e montar a mala",
+      "version": "0.1.0",
+      "author": { "name": "eclbrz", "url": "https://github.com/eclbrz" },
+      "category": "productivity",
+      "keywords": ["viagem", "roteiro", "voos", "bagagem", "familia", "mcp"],
+      "homepage": "https://github.com/eclbrz/bora-viajar-plugin",
+      "repository": "https://github.com/eclbrz/bora-viajar-plugin"
+    }
+  ]
+}
