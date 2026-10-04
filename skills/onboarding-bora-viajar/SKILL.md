@@ -10,9 +10,9 @@ Guia o primeiro uso, de forma curta e prática.
 ## Passos
 
 1. **Conexão.** Tente chamar `listar_viagens` do MCP `bora-viajar`.
-   - Se as tools do `bora-viajar` não existem ou pedem autenticação: guie o usuário a rodar `/mcp`, escolher `bora-viajar`, autenticar (login com a conta Google) e, se preciso, recarregar com `/reload-plugins` ou reiniciar a sessão.
-   - Se o servidor não aparece no `/mcp`: peça para conferir se o plugin está instalado e habilitado (`/plugin marketplace add eclbrz/bora-viajar-plugin`, depois `/plugin install bora-viajar@bora-viajar`). Como último recurso, adicionar manualmente: `claude mcp add --transport http bora-viajar https://viagens-mcp-286754895635.southamerica-east1.run.app/mcp` e depois autenticar pelo `/mcp`.
-   - No claude.ai / app: Customize → Connectors → Add custom connector → colar a mesma URL → login Google.
+   - Se as tools do `bora-viajar` não existem ou pedem autenticação: guie o usuário a rodar `/mcp`, escolher `bora-viajar`, autenticar (login no Bora Viajar com Google ou e-mail e senha, depois **Permitir**) e, se preciso, recarregar com `/reload-plugins` ou reiniciar a sessão.
+   - Se o servidor não aparece no `/mcp`: peça para conferir se o plugin está instalado e habilitado (`/plugin marketplace add eclbrz/bora-viajar-plugin`, depois `/plugin install bora-viajar@bora-viajar`). Como último recurso, adicionar manualmente: `claude mcp add --transport http bora-viajar https://mcp.boraviajar.app/mcp` e depois autenticar pelo `/mcp`.
+   - No claude.ai / app: Customize → Connectors → Add custom connector → colar a mesma URL → entrar no Bora Viajar → **Permitir**.
 2. **Viagens.** Com o MCP conectado, chame `listar_viagens` e resuma em poucas linhas (nome, destino, datas). Se não houver nenhuma, diga isso sem alarde.
 3. **Primeiro fluxo.** Pergunte o que o usuário quer fazer e conduza com a skill certa:
    - planejar uma viagem nova: `planejar-viagem`;

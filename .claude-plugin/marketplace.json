@@ -10,7 +10,7 @@
       "name": "bora-viajar",
       "source": "./",
       "description": "MCP do Bora Viajar + skills para planejar viagens, revisar roteiros, registrar voos e montar a mala",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": { "name": "eclbrz", "url": "https://github.com/eclbrz" },
       "category": "productivity",
       "keywords": ["viagem", "roteiro", "voos", "bagagem", "familia", "mcp"],

@@ -2,7 +2,7 @@
 
 Plugin do **Bora Viajar**, o app de viagens da família (roteiro, reservas, voos, perfil de viajante e mala). Ele registra o servidor MCP do Bora Viajar e traz skills que conduzem os fluxos principais em português.
 
-O repositório não contém segredo nenhum: só a URL pública do MCP e as skills. O acesso aos seus dados exige login Google (OAuth) no primeiro uso.
+O repositório não contém segredo nenhum: só a URL pública do MCP e as skills. O acesso aos seus dados exige entrar no Bora Viajar (Google ou e-mail e senha) e autorizar a conexão no primeiro uso (OAuth).
 
 ## Como conectar
 
@@ -13,20 +13,20 @@ O repositório não contém segredo nenhum: só a URL pública do MCP e as skill
 /plugin install bora-viajar@bora-viajar
 ```
 
-O plugin registra o servidor MCP `bora-viajar` sozinho. No primeiro uso, rode `/mcp`, escolha `bora-viajar` e entre com sua conta Google.
+O plugin registra o servidor MCP `bora-viajar` sozinho. No primeiro uso, rode `/mcp`, escolha `bora-viajar` e entre no Bora Viajar (Google ou e-mail e senha) e toque em **Permitir**.
 
 Se o servidor não aparecer, adicione manualmente:
 
 ```
-claude mcp add --transport http bora-viajar https://viagens-mcp-286754895635.southamerica-east1.run.app/mcp
+claude mcp add --transport http bora-viajar https://mcp.boraviajar.app/mcp
 ```
 
 ### claude.ai / app do Claude
 
-Customize → Connectors → Add custom connector → cole a URL abaixo → faça login com Google.
+Customize → Connectors → Add custom connector → cole a URL abaixo → entre no Bora Viajar e toque em **Permitir**.
 
 ```
-https://viagens-mcp-286754895635.southamerica-east1.run.app/mcp
+https://mcp.boraviajar.app/mcp
 ```
 
 (No claude.ai só o conector MCP é registrado; as skills abaixo são do Claude Code.)
@@ -59,7 +59,7 @@ Primeiro, verifique se o plugin oficial Bora Viajar (https://github.com/eclbrz/b
 /plugin install bora-viajar@bora-viajar
 Abrir ou ler o repositório não conta como instalar. Se precisar recarregar o plugin ou reiniciar a sessão, me guie nisso antes de seguir.
 
-O plugin registra o servidor MCP do Bora Viajar sozinho. Se não estiver conectado, me ajude a autenticar pelo /mcp (login Google). Se o servidor não aparecer, me guie a adicionar https://viagens-mcp-286754895635.southamerica-east1.run.app/mcp manualmente e entrar com minha conta Google.
+O plugin registra o servidor MCP do Bora Viajar sozinho. Se não estiver conectado, me ajude a autenticar pelo /mcp (login no Bora Viajar). Se o servidor não aparecer, me guie a adicionar https://mcp.boraviajar.app/mcp manualmente e entrar com minha conta do Bora Viajar.
 
 Por fim, confirme que as skills do Bora Viajar estão habilitadas, liste minhas viagens e me ajude a escolher a primeira coisa: planejar uma viagem nova, importar um roteiro, registrar voos de um print ou montar a mala — e use o MCP do Bora Viajar pra fazer junto comigo.
 ```
